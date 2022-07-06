@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --greytxt:#7D7F84;
+}
+
+/* REGOLE LAYOUT */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    flex-grow: 1;
+    background-color: #141922;
+    display: flex;
+}
+
+.toolbar-multimedia {
+    min-height: 5rem;
+    background-color: #282828;
+}
+
+.nav-bar {
+    width: 200px;
+    background-color: black;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+
+.upgrade-bar {
+    padding: 1rem 0 1.75rem 0;
+    background-color: #080b12;
+    text-align: right;
+}
+
+.upgrade-button {
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 50px;
+    border-radius: 50px;
+    background-color: #080B12;
+}
+
+.upgrade-button a{
+    color: white;
+}
+
