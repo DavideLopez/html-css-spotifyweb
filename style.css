@@ -59,10 +59,10 @@ a {
 }
 
 .upgrade-button {
-    line-height: 60px;
+    line-height: 50px;
     font-size: 14px;
     font-weight: bold;
-    padding: 0 50px;
+    padding: 0 60px;
     border-radius: 50px;
     background-color: #080B12;
 }
@@ -97,6 +97,7 @@ header p{
     display: flex;
     align-items: center;
     gap: 20px;
+    font-size: 1rem;
 }
 
 .current-song-titles{
@@ -135,5 +136,20 @@ header p{
 .volume-buttons{
     display: flex;
     gap: 20px;
-    color: #7D7F84;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.player .player-buttons {
+    font-size: 1.50rem;
+    color: white;
+    text-align: center;
+}
+
+.player-buttons i{
+    padding: 0 20px;
+}
+
+.play-big{
+    font-size: 2rem;
 }
