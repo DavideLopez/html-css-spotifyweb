@@ -31,11 +31,11 @@ a {
 }
 
 .toolbar-multimedia {
-    min-height: 5rem;
+    min-height: 90px;
     background-color: #282828;
 }
 
-.nav-bar {
+.nav-bar-side {
     width: 200px;
     background-color: black;
 }
