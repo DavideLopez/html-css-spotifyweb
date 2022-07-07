@@ -144,10 +144,9 @@ header p{
     font-size: 1.50rem;
     color: white;
     text-align: center;
-}
-
-.player-buttons i{
-    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .play-big{
