@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 :root{
     --greytxt:#7D7F84;
 }
@@ -45,6 +49,16 @@ a {
     width: 200px;
     background-color: black;
     /* max-height: 100%; */
+}
+
+.small-version-logo{
+    width:30px;
+    display: none;
+}
+
+.logo-nav-bar {
+    width: 120px;
+    padding: 20px 0 20px 10px ;
 }
 
 .main-container {
@@ -81,7 +95,158 @@ header p{
     }
 } */
 
-/* CONTENUTO */
+/* CONTENUTO LEFTBAR */
+
+.mobile-logo {
+    width:30px;
+    display: none;
+}
+
+.logo-header {
+    width: 140px;
+    padding: 1rem 0 1.75rem 0 ;
+}
+
+.ul-nav-general i {
+    font-size: 20px;
+}
+
+.ul-nav-general a{
+    color: var(--greytxt);
+}
+
+.active-nav, figure {
+    margin: 0 1rem;
+}
+
+.description-icon {
+    display: inline;
+    margin-left: 0.5rem;
+    line-height: 20px;
+    vertical-align: center;
+}
+
+
+.ul-nav-general {
+    padding-bottom: 1.5rem;
+}
+
+#home, #home-icon {
+    color: white;
+}
+
+.add-playlist span {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.wrapper-playlist h3 {
+    color: white;
+}
+
+.add-playlist i {
+    font-size: 2.5rem;
+}
+.add-playlist {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.name-playlist li {
+    line-height: 2rem;
+    color: var(--greytxt);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wrapper-playlist {
+    color: var(--greytxt);
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.active-nav {
+    color: var(--greytxt);
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.install {
+    padding: 0 1rem;
+} 
+
+.install-link {
+    border-bottom: 1px solid var(--greytxt);
+    padding: 0.8rem 0;
+    color: var(--greytxt);
+}
+
+.install-link a{
+    color: var(--greytxt);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.install-link i {
+    margin-right: 0.8rem;
+}
+.new {
+    color: var(--greytxt);
+}
+
+.user {
+    font-size: 1.2rem;
+    display: inline;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.profile i {
+    font-size: 1.5rem;
+    color: var(--greytxt);
+}
+
+.profile {
+    padding: 0.8rem 0;
+    display: flex;
+}
+
+.nav-general-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 90px);
+    justify-content: space-between;
+    padding-bottom: 0.8rem;
+}
+
+.add-playlist:hover {
+    color: white;
+}
+
+.new:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.active-nav:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.install-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+  /* BOTTOM TOOLBAR */
+
 
 .current-song img{
     width: 50px;
@@ -164,3 +329,5 @@ header p{
 .player-scrollbar{
     
 }
+
+/* FINE BOTTOM TOOLBAR */
