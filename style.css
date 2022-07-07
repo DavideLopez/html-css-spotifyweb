@@ -31,6 +31,8 @@ a {
 }
 
 .toolbar-multimedia {
+    display: flex;
+    flex-shrink: 0;
     min-height: 90px;
     background-color: #282828;
 }
@@ -63,3 +65,12 @@ a {
     color: white;
 }
 
+header p{
+    color: white;
+}
+
+/* @media (min-width: ;) {
+    .nav-bar-side{
+        
+    }
+} */
