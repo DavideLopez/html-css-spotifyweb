@@ -32,18 +32,24 @@ a {
 
 .toolbar-multimedia {
     display: flex;
+    justify-content: space-between;
+    flex-basis: 90px;
+    align-items: center;
     flex-shrink: 0;
     min-height: 90px;
     background-color: #282828;
+    padding: 20px 0px;
 }
 
 .nav-bar-side {
     width: 200px;
     background-color: black;
+    /* max-height: 100%; */
 }
 
 .main-container {
     flex-grow: 1;
+    overflow: auto;
 }
 
 .upgrade-bar {
@@ -74,3 +80,22 @@ header p{
         
     }
 } */
+
+/* CONTENUTO */
+
+.toolbar-multimedia > *{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.current-song, .volume{
+    flex-basis: 250px;
+}
+
+.toolbar-multimedia .player{
+    flex-basis: 40%;
+}
+
+.player{
+    flex-basis: 35%;
+}
