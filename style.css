@@ -19,6 +19,17 @@ li{
 :root{
     --greytxt:#7D7F84;
 }
+ 
+
+@media (min-width:552px) { 
+    .logo-nav-bar{
+        display: block;
+    }
+
+    .mobile-logo{
+        display: none;
+    }
+}
 
 /* REGOLE LAYOUT */
 
@@ -48,10 +59,9 @@ li{
 .nav-bar-side {
     width: 200px;
     background-color: black;
-    /* max-height: 100%; */
 }
 
-.small-version-logo{
+.mobile-logo{
     width:30px;
     display: none;
 }
@@ -71,6 +81,8 @@ li{
     background-color: #080b12;
     text-align: right;
 }
+
+
 
 .upgrade-button {
     line-height: 50px;
@@ -194,11 +206,13 @@ header p{
 }
 
 .user {
-    font-size: 1.2rem;
+    /* font-size: 1.25rem; */
     display: inline;
     margin-left: 1rem;
-    text-align: center;
+    font-weight: bold;
 }
+
+
 
 .profile i {
     font-size: 1.5rem;
@@ -208,18 +222,15 @@ header p{
 .profile {
     padding: 0.8rem 0;
     display: flex;
+    align-items: center;
 }
 
 .nav-general-container {
     display: flex;
     flex-direction: column;
-    height: calc(100% - 90px);
+    height: calc(100% - 100px);
     justify-content: space-between;
     padding-bottom: 0.8rem;
-}
-
-.add-playlist:hover {
-    color: white;
 }
 
 .new:hover {
@@ -322,7 +333,36 @@ header p{
 }
 
 .player-scrollbar{
-    
+    height: 4px;
+    border-radius: 999px;
+    background-color: var(--greytxt);
+    min-width: 150px;
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+
+
 /* FINE BOTTOM TOOLBAR */
+
+.box-menu{
+    display: flex;
+    text-align: center;
+}
+
+.box-menu-options{
+    display: flex;
+    gap: 35px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.box-menu-options a{
+    color: var(--greytxt);
+    font-weight: bold;
+}
+
+
