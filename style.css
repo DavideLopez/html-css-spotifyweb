@@ -271,13 +271,23 @@ header p{
     cursor: pointer;
 }
 
+.active-nav .name-icon:hover{
+    color: white;
+}
+
 .install-link:hover {
     color: white;
     cursor: pointer;
 
 }
 
+.new-playlist span:hover{
+    color: white;
+}
 
+.new-playlist i:hover{
+    color: white;
+}
 
 
 /* BOTTOM TOOLBAR */
