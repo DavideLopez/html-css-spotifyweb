@@ -82,6 +82,7 @@ li{
     padding: 1rem 0 1.75rem 0;
     background-color: #080b12;
     text-align: right;
+    z-index: 1;
 }
 
 .upgrade-button {
@@ -372,6 +373,7 @@ header p{
     display: flex;
     justify-content: space-between;
     gap: 1.25rem;
+    align-items: center;
 }
 
 
@@ -380,7 +382,6 @@ header p{
     height: 4px;
     border-radius: 999px;
     background-color: var(--greytxt);
-    display: flex;
     flex-basis: 150px;
     flex-grow: 1;
 }
