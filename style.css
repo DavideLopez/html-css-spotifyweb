@@ -374,6 +374,7 @@ header p{
     justify-content: space-between;
     gap: 1.25rem;
     align-items: center;
+    margin-top: 5px;
 }
 
 
